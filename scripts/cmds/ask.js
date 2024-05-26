@@ -1,7 +1,7 @@
- const axios = require('axios');
+const axios = require('axios');
 
 const Prefixes = [
-  'sonic'
+  'limule'
 ];
 
 module.exports = {
@@ -25,7 +25,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("𝐏𝐨𝐬𝐞 𝐦𝐨𝐢 𝐭𝐚 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧 ✅✨🌿 𝐣𝐞 𝐥𝐚 𝐫𝐞𝐬𝐨𝐥𝐯𝐞 𝐚 𝐥𝐚 𝐯𝐢𝐭𝐞𝐬𝐬𝐞 𝐝𝐞 𝐥'𝐞𝐜𝐥𝐚𝐢𝐫🏂✨🍀");
+        await message.reply("💠𝒑𝒐𝒔𝒆 𝒕𝒂 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏 𝒉𝒖𝒎𝒂𝒊𝒏 𝒋𝒆 𝒓é𝒑𝒐𝒏𝒅𝒓𝒂𝒊 𝒈𝒓â𝒄𝒆 à 𝒎𝒂 𝒄𝒐𝒎𝒑é𝒕𝒆𝒏𝒄𝒆 𝒖𝒏𝒊𝒒𝒖𝒆 (𝒈𝒓𝒂𝒏𝒅 𝒔𝒂𝒈𝒆)💠");
         return;
       }
 
@@ -34,13 +34,13 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `𝐒𝐎𝐍𝐈𝐂 🍀
+    await message.reply({ body: `🔷💧💠
 ✧════•❁❀❁•════✧        ${answer}
-✧════•❁❀❁•════✧ 𝐒𝐔𝐏𝐄𝐑 𝐒𝐎𝐍𝐈𝐂🏂`,
+✧════•❁❀❁•════✧ limule tempest 💧`,
 });
 
    } catch (error) {
       console.error("Error:", error.message);
     }
   }
-  }
+     }
