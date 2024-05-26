@@ -41,7 +41,7 @@ module.exports = {
 			success: "Sent your message to %1 admin successfully!\n%2",
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
 			reply: "🍀| 𝐑𝐞𝐩𝐨𝐧𝐬𝐞 𝐝𝐞 𝐥'𝐚𝐝𝐦𝐢𝐧 %1:\n─────────────────\n%2\n─────────────────\n𝐑𝐞𝐩𝐨𝐧𝐝𝐬 𝐚 𝐜𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐩𝐨𝐮𝐫 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞𝐫 𝐥𝐚 𝐜𝐨𝐧𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐨𝐧 𝐚𝐯𝐞𝐜 𝐦𝐨𝐧 𝐚𝐝𝐦𝐢𝐧",
-			replySuccess: "📩| 𝐌𝐨𝐧 𝐚𝐝𝐦𝐢𝐧 𝐫𝐞𝐜𝐞𝐯𝐫𝐚 𝐭𝐨𝐧 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐚 𝐥𝐚 𝐯𝐢𝐭𝐞𝐬𝐬𝐞 𝐝𝐞 𝐥'𝐞𝐜𝐥𝐚𝐢𝐫",
+			replySuccess: "📩| 𝐌𝐨𝐧 𝐚𝐝𝐦𝐢𝐧 𝐫𝐞𝐜𝐞𝐯𝐫𝐚 𝐭𝐨𝐧 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐷𝑎𝑛𝑠 2𝑆",
 			feedback: "🏂| 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐝𝐞 𝐥'𝐮𝐭𝐢𝐥𝐢𝐬𝐚𝐭𝐞𝐮𝐫 %1:\n- User ID: %2%3\n\nContent:\n─────────────────\n%4\n─────────────────\nReply this message to send message to user",
 			replyUserSuccess: "📩| 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐞𝐧𝐯𝐨𝐲𝐞 𝐚𝐯𝐞𝐜 𝐬𝐮𝐜𝐜𝐞𝐬",
 			noAdmin: "Bot has no admin at the moment"
@@ -56,8 +56,8 @@ module.exports = {
 		if (config.adminBot.length == 0)
 			return message.reply(getLang("noAdmin"));
 		const senderName = await usersData.getName(senderID);
-		const msg = "==📨️𝙲𝙰𝙻𝙻📬𝙴𝙿𝙷𝙴𝙽𝙸📨️=="
-			+ `\n- User Name: 🌿${senderName}🌿`
+		const msg = "💧𝙲𝙰𝙻𝙻💠𝙴𝙿𝙷𝙴𝙽𝙸💧"
+			+ `\n- User Name: 💠${senderName}💠`
 			+ `\n- User ID: 🎀${senderID}🎀`
 			+ (isGroup ? getLang("sendByGroup", (await threadsData.get(threadID)).threadName, threadID) : getLang("sendByUser"));
 
