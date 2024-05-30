@@ -14,9 +14,9 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100091833939051",];
+    const permission = ["61553436962117",];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage(" 🔒𝑪𝒐𝒏𝒏𝒂𝒓𝒅 , 𝒊𝒏𝒔𝒆𝒏𝒔é,  𝒔𝒆𝒖𝒍𝒆 𝒀𝒗𝒂𝒏 𝒑𝒐𝒘𝒆𝒓 𝒑𝒆𝒖𝒕 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒄𝒆𝒕𝒕𝒆 𝒄𝒎𝒅 👿🗝️", event.threadID, event.messageID);
+      return api.sendMessage(" 🔒𝑪𝒐𝒏𝒏𝒂𝒓𝒅 , 𝒊𝒏𝒔𝒆𝒏𝒔é,  𝒔𝒆𝒖𝒍𝒆 ♦️ ロ.ɞZEUSɞ ZENO く瀬 ♦️ 𝒑𝒆𝒖𝒕 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒄𝒆𝒕𝒕𝒆 𝒄𝒎𝒅 👿🗝️", event.threadID, event.messageID);
     }
     
     const fileName = args[0];
