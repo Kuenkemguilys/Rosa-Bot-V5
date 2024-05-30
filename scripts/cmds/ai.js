@@ -6,13 +6,13 @@ const Prefixes = [
 
   'ask',
 
-  'gpt',
+  'zeno',
 
   'ai',
 
   'bot',
 
-  'openai',
+  'darkness',
 
 ];
 
