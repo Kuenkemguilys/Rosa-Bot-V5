@@ -49,13 +49,13 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🎀✨𝐄𝐔𝐏𝐇𝐄𝐌𝐈𝐀✨🎀
+      return message.reply(`🎀✨ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ✨🎀
  ───────────
 💘[ ${resultString} ]💘\ 💚|𝐁𝐫𝐚𝐯𝐨 𝐩𝐞𝐭𝐢𝐭 𝐜𝐨𝐞𝐮𝐫 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`𝐄𝐔𝐏𝐇𝐄𝐌𝐈𝐀
+      return message.reply(`ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ
   ─────────── 
 ʕ˖͜͡˖ʔ[ ${resultString} ]ʕ˖͜͡˖ʔ
 🥺| 𝐃𝐞𝐬𝐨𝐥𝐞 𝐦𝐨𝐧 𝐜𝐡𝐨𝐮 𝐭'𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 🎀${betAmount}€🎀.`);
