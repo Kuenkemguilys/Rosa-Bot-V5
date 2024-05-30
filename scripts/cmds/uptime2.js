@@ -30,7 +30,7 @@ module.exports = {
 ${minutes} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬💧, 
 💠${seconds} 𝐬𝐞𝐜𝐨𝐧𝐝𝐬💧`;
       
-      api.sendMessage(`⚪ | 💠𝑳𝒊𝒎𝒖𝒍𝒆 💧 𝔯𝔲𝔫𝔫𝔦𝔫𝔤 𝔗𝔦𝔪𝔢\${uptimeString}`, event.threadID);
+      api.sendMessage(`⚪ | 💠ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ 💧 𝔯𝔲𝔫𝔫𝔦𝔫𝔤 𝔗𝔦𝔪𝔢\${uptimeString}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
