@@ -28,8 +28,8 @@ module.exports = {
 			helloWithName: "xin chào thành vien mới, id facebook của bạn là %1"
 		}, // Vietnamese language
 		en: {
-			hello: "hello new member",
-			helloWithName: "hello new member, your facebook id is %1"
+			hello: "𝒉𝒆𝒍𝒍𝒐 𝒃𝒓𝒐𝒕𝒉𝒆𝒓 ",
+			helloWithName: "𝑯𝒆𝒍𝒍𝒐 𝒏𝒆𝒘 𝒎𝒆𝒎𝒃𝒆𝒓, 𝒚𝒐𝒖𝒓 𝒇𝒂𝒄𝒆𝒃𝒐𝒐𝒌 𝒊𝒅 𝒊𝒔 %1"
 		} // English language
 	},
 
