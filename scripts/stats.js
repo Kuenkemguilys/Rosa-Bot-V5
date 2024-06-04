@@ -41,7 +41,7 @@ module.exports = {
 
       const timeStart = Date.now();
       await api.sendMessage({
-        body: "✨𝑫𝑰𝑺𝑻𝑨𝑵𝑪𝑬🍀𝑷𝑨𝑹𝑪𝑶𝑼𝑹𝑼𝑬✨",
+        body: "✨𝑫𝑼𝑹𝑬𝑬 ♦ 𝑫𝑬 ♦ ☢ 𝑽𝑰𝑬 ✨",
       }, event.threadID);
 
       const ping = Date.now() - timeStart;
@@ -54,7 +54,7 @@ module.exports = {
       // Assuming global.utils.getStreamFromURL(img) is correctly defined
       const imgURL= [ "https://i.ibb.co/4f70Xs9/image.jpg", "https://i.ibb.co/g97zhps/image.jpg" ];
       const attachment = await global.utils.getStreamFromURL(imgURL); api.sendMessage({
-        body: `🍀𝑆𝑈𝑃𝐸𝑅♻️𝑆𝑂𝑁𝐼𝐶🍀 \────────\
+        body: `♦ 𝗗𝗮𝗿𝗸𝗻𝗲𝘀𝘀 ☢ 𝗚𝗵𝗼𝘀𝘁 ♦ \────────\
 
 🍀 | 𝐒𝐎𝐍𝐈𝐂 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐓𝐈𝐌𝐄﹞\  ${uptimeString}\──────── \
 
