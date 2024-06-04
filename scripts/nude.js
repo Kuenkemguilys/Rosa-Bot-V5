@@ -109,7 +109,7 @@ module.exports = {
   ]
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: '「 Sugar Mumma Ahh💦🥵 」',attachment: await global.utils.getStreamFromURL(img)
+  body: '「𝗿𝗲𝗴𝗮𝗿𝗱𝗲𝘇 𝗰𝗲 𝗺𝗲𝗰 𝗶𝗹 𝗽𝗮𝘀𝘀𝗲 𝘀𝗼𝗻 𝘁𝗲𝗺𝗽𝘀 𝗮 𝘃𝗼𝗶𝗿 𝗱𝗲𝘀 𝗻𝘂𝗱𝗲𝘀 😒😒」',attachment: await global.utils.getStreamFromURL(img)
 })
 }
      
